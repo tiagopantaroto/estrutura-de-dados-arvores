@@ -1,0 +1,3 @@
+C:/Users/tiago/repositorio-github/estrutura-de-dados-arvores/cmake-build-debug/CMakeFiles/estrutura_de_dados_arvores.dir
+C:/Users/tiago/repositorio-github/estrutura-de-dados-arvores/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tiago/repositorio-github/estrutura-de-dados-arvores/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,23 @@
 # ninja log v6
 2	67	7521045128388310	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
 68	155	7521045129045461	estrutura_de_dados_arvores.exe	90900707f77880b2
+3	64	7521053242762343	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+64	138	7521053243368909	estrutura_de_dados_arvores.exe	90900707f77880b2
+12	67	7521053281558907	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+68	131	7521053282112140	estrutura_de_dados_arvores.exe	90900707f77880b2
+3	67	7521059487491173	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+67	138	7521059488140608	estrutura_de_dados_arvores.exe	90900707f77880b2
+14	69	7521060828543527	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+70	126	7521060829101094	estrutura_de_dados_arvores.exe	90900707f77880b2
+14	68	7521063208597192	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+68	130	7521063209142256	estrutura_de_dados_arvores.exe	90900707f77880b2
+10	76	7521065546003897	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+76	134	7521065546660090	estrutura_de_dados_arvores.exe	90900707f77880b2
+15	67	7521066190549197	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+68	123	7521066191070829	estrutura_de_dados_arvores.exe	90900707f77880b2
+2	53	7521067052308730	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+53	107	7521067052818902	estrutura_de_dados_arvores.exe	90900707f77880b2
+3	55	7521067289102497	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+55	112	7521067289628321	estrutura_de_dados_arvores.exe	90900707f77880b2
+15	68	7521071929340152	CMakeFiles/estrutura_de_dados_arvores.dir/main.c.obj	f3733604660e8ccb
+68	123	7521071929867030	estrutura_de_dados_arvores.exe	90900707f77880b2

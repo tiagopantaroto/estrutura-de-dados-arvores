@@ -6,7 +6,19 @@ void exibirArvoreCopilot(struct no *raiz);
 void criarArvoreNaMao();
 
 int main() {
-    criarArvoreNaMao();
+    //criarArvoreNaMao();
+    Tree *raiz = NULL;
+    /*
+    inserirABB(&raiz, 20);
+    inserirABB(&raiz, 10);
+    inserirABB(&raiz, 12);
+    inserirABB(&raiz, 13);
+    inserirABB(&raiz, 4);
+    inserirABB(&raiz, 400);
+    inserirABB(&raiz, 200);
+    inserirABB(&raiz, 500);
+    */
+    exibirArvoreCopilot(raiz);
 }
 
 void criarArvoreNaMao() {

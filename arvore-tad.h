@@ -18,16 +18,16 @@ void inserirABB(Tree **raiz, int info) {
     } else {
         Tree *aux = *raiz;
         int inseriu = 0;
-        while(inseriu == 0) {
-            if(aux->info > info) {
-                if(aux->esq == NULL) {
+        while (inseriu == 0) {
+            if (aux->info > info) {
+                if (aux->esq == NULL) {
                     aux->esq = criarNo(info);
                     inseriu = 1;
                 } else {
                     aux = aux->esq;
                 }
             } else {
-                if(aux->dir == NULL) {
+                if (aux->dir == NULL) {
                     aux->dir = criarNo(info);
                     inseriu = 1;
                 } else {
@@ -35,6 +35,20 @@ void inserirABB(Tree **raiz, int info) {
                 }
             }
         }
-
     }
+}
+
+void inserirABBR(Tree **raiz, int info) {
+    if (*raiz == NULL) {
+        *raiz = criarNo(info);
+    } else {
+        if ((*raiz)->info > info)
+            inserirABBR(&((*raiz)->esq), info);
+        else
+            inserirABBR(&((*raiz)->dir), info);
+    }
+}
+
+int estaVazia(Tree *raiz) {
+    return raiz == NULL;
 }

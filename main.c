@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "arvore-tad.h"
+#include "pilha-arvore-tad.h"
 
-void exibirArvoreCopilot(struct no *raiz);
+void exibirArvoreCopilot(Tree *raiz);
 void criarArvoreNaMao();
 
 int main() {
+
     //criarArvoreNaMao();
     Tree *raiz = NULL;
     /*
@@ -18,7 +20,26 @@ int main() {
     inserirABB(&raiz, 200);
     inserirABB(&raiz, 500);
     */
-    exibirArvoreCopilot(raiz);
+
+
+    Pilha *p;
+    init(&p);
+    printf("\nEsta vazia? %d", pilhaEstaVazia(p));
+    Tree *n1 = criarNo(100);
+    Tree *n2 = criarNo(200);
+    Tree *n3 = criarNo(400);
+    push(&p, n1);
+    push(&p, n2);
+    push(&p, n3);
+    pop(p);
+    printf("\nPilha = ");
+    exibirPilha(p);
+
+
+
+    //exibirArvoreCopilot(raiz);
+
+
 }
 
 void criarArvoreNaMao() {
@@ -41,7 +62,7 @@ void criarArvoreNaMao() {
 }
 
 
-void exibirArvoreCopilot(struct no *raiz) {
+void exibirArvoreCopilot(Tree *raiz) {
     if (raiz == NULL) return;
 
     printf("(%d", raiz->info);

@@ -4,42 +4,32 @@
 #include "pilha-arvore-tad.h"
 
 void exibirArvoreCopilot(Tree *raiz);
+
 void criarArvoreNaMao();
 
 int main() {
-
     //criarArvoreNaMao();
     Tree *raiz = NULL;
-    /*
+
     inserirABB(&raiz, 20);
+
     inserirABB(&raiz, 10);
+
+    inserirABB(&raiz, 5);
+
     inserirABB(&raiz, 12);
-    inserirABB(&raiz, 13);
-    inserirABB(&raiz, 4);
+
+
     inserirABB(&raiz, 400);
-    inserirABB(&raiz, 200);
-    inserirABB(&raiz, 500);
-    */
 
 
-    Pilha *p;
-    init(&p);
-    printf("\nEsta vazia? %d", pilhaEstaVazia(p));
-    Tree *n1 = criarNo(100);
-    Tree *n2 = criarNo(200);
-    Tree *n3 = criarNo(400);
-    push(&p, n1);
-    push(&p, n2);
-    push(&p, n3);
-    pop(p);
-    printf("\nPilha = ");
-    exibirPilha(p);
-
-
-
+    printf("\nPre-ordem: ");
+    preOrdemR(raiz);
+    printf("\nIn-ordem: ");
+    inOrdemR(raiz);
+    printf("\nPos-ordem: ");
+    posOrdemR(raiz);
     //exibirArvoreCopilot(raiz);
-
-
 }
 
 void criarArvoreNaMao() {

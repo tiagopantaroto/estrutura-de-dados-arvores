@@ -97,7 +97,8 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -117,6 +118,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "pilha-arvore-tad.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "arvore-pilha.h",
 			"sourceGroupIndex" : 1
 		}
 	],

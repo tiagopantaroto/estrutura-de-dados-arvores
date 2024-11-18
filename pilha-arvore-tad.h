@@ -12,7 +12,7 @@ void init(Pilha **p) {
 }
 
 int pilhaEstaVazia(Pilha *p) {
-    return p == NULL;
+    return p == NULL || p->no == NULL;
 }
 
 void push(Pilha **p, Tree *no) {
@@ -30,10 +30,9 @@ void push(Pilha **p, Tree *no) {
 
 Tree *pop(Pilha **p) {
     Tree *aux = NULL;
-    if (!estaVazia(*p)) {
-        printf("entrou");
+    if (!arvoreEstaVazia(*p)) {
         aux = (*p)->no;
-        p = (*p)->prox;
+        *p = (*p)->prox;
     }
 
     return aux;

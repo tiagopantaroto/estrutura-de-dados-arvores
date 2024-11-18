@@ -49,7 +49,7 @@ void inserirABBR(Tree **raiz, int info) {
     }
 }
 
-int estaVazia(Tree *raiz) {
+int arvoreEstaVazia(Tree *raiz) {
     return raiz == NULL;
 }
 
